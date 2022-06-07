@@ -1,0 +1,82 @@
+import os
+
+class Windows:
+    Start = os.getcwd() + "/png/Windows/Start.png"
+    Profile = os.getcwd() + "/png/Windows/Profile.png"
+    SaveDownloadButton = os.getcwd() + "/png/Windows/SaveDownloadButton.PNG"
+
+class Browsers:
+    class Firefox:
+        Icon = os.getcwd() +  "/png/Browser/Firefox/firefoxIcon.png"
+        SearchBar = os.getcwd() +  "/png/Browser/Firefox/SearchBar.png"
+        Close = os.getcwd() +  "/png/Browser/Firefox/CloseFirefox.png"
+        CloseHighlighted = os.getcwd() +  "/png/Browser/Firefox/CloseFirefoxHighlighted.PNG"
+        ForbiddenError = os.getcwd() +  "/png/Browser/Firefox/ForbiddenError.png"
+        ConnectionTimeoutError = os.getcwd() +  "/png/Browser/Firefox/ConnectionTimeout.png"
+        ConnectionProtocolError = os.getcwd() + "/png/Browser/Firefox/NetworkProtocolError.png"
+        ConnectionFailedError = os.getcwd() + "/png/Browser/Firefox/ConnectionFailed.PNG"
+        FindingSiteError = os.getcwd() + "/png/Browser/Firefox/FindingSiteError.PNG"
+        UpstreamConnectionError = os.getcwd() + "/png/Browser/Firefox/UpstreamConnectionError.png"
+        PageStopped = os.getcwd() + "/png/Browser/Firefox/PageStopped.png"
+
+class VPN:
+    class ProtonVPN:
+        class App:
+            TaskbarIcon = os.getcwd() + "/png/VPN/ProtonVPN/TaskbarIcon.PNG"
+            QuickConnect = os.getcwd() + "/png/VPN/ProtonVPN/QuickConnect.png"
+            QuickDisconnect = os.getcwd() + "/png/VPN/ProtonVPN/QuickDisconnect.png"
+            StatusConnected = os.getcwd() + "/png/VPN/ProtonVPN/StatusConnected.png"
+            StatusDisconnected = os.getcwd() + "/png/VPN/ProtonVPN/StatusDisconnected.png"
+            Close = os.getcwd() + "/png/VPN/ProtonVPN/Close.png"
+            UpgradeButton = os.getcwd() + "/png/VPN/ProtonVPN/UpgradeBtn.PNG"
+
+class Spotify:
+    class Signup:
+        Icon = os.getcwd() + "/png/Spotify/SpotifyIcon.png"
+        EmailInputField = os.getcwd() + "/png/Spotify/EmailInput_Dark.png"
+        EmailConfirmationInputField = os.getcwd() + "/png/Spotify/EmailConfirmInput_Dark.png"
+        PasswordInputField = os.getcwd() + "/png/Spotify/PasswordInput_Dark.png"
+        DisplayInputField = os.getcwd() + "/png/Spotify/DisplayName_Dark.png"
+        DayInputField = os.getcwd() + "/png/Spotify/DayInput_Dark.png"
+        MonthsDropdown = os.getcwd() + "/png/Spotify/MonthSelection_Dark.png"
+        January = os.getcwd() + "/png/Spotify/JanuarySelect_Dark.png"
+        February = os.getcwd() + "/png/Spotify/FebruarySelect_Dark.png"
+        March = os.getcwd() + "/png/Spotify/MarchSelect_Dark.png"
+        April = os.getcwd() + "/png/Spotify/AprilSelect_Dark.png"
+        May = os.getcwd() + "/png/Spotify/MaySelect_Dark.png"
+        June = os.getcwd() + "/png/Spotify/JuneSelect_Dark.png"
+        July = os.getcwd() + "/png/Spotify/JulySelect_Dark.png"
+        August = os.getcwd() + "/png/Spotify/AugustSelect_Dark.png"
+        September = os.getcwd() + "/png/Spotify/SeptemberSelect_Dark.png"
+        October = os.getcwd() + "/png/Spotify/OctoberSelect_Dark.png"
+        November = os.getcwd() + "/png/Spotify/NovemberSelect_Dark.png"
+        December = os.getcwd() + "/png/Spotify/DecemberSelect_Dark.png"
+        YearInputField = os.getcwd() + "/png/Spotify/YearInput_Dark.png"
+        MaleButton = os.getcwd() + "/png/Spotify/MaleButton_Dark.png"
+        FemaleButton = os.getcwd() + "/png/Spotify/FemaleButton_Dark.png"
+        DisableEmailNotificationSelect = os.getcwd() + "/png/Spotify/DisableEmailNotificationButton_Dark.png"
+        SignUpBtn = os.getcwd() + "/png/Spotify/SignUpButton_Dark.png"
+        AcceptCookiesV1 = os.getcwd() + "/png/Spotify/AcceptCookies_Dark.png"
+        AcceptCookiesV2 = os.getcwd() + "/png/Spotify/AcceptCookies2_Dark.png"
+        SignedUpCheck = os.getcwd() + "/png/Spotify/SignupCheck.PNG"
+        SignedUpCheck2 = os.getcwd() + "/png/Spotify/SignupCheck2.PNG"
+        ConnectedToVPNError = os.getcwd() + "/png/Spotify/ConnectedToVPNError.png"
+        EmailAlreadyConnectedError = os.getcwd() + "/png/Spotify/emailAlreadyUsed.PNG"
+        InvalidEmailError = os.getcwd() + "/png/Spotify/InvalidEmail.PNG"
+
+class Captcha:
+    StartBox = os.getcwd() + "/png/Captcha/CaptchaStartBtn.PNG"
+    AudioOption = os.getcwd() + "/png/Captcha/CaptchaAudioSelect.png"
+    AudioDownload = os.getcwd() + "/png/Captcha/CaptchaAudioDownload.png"
+    AudioDownloadPage = os.getcwd() + "/png/Captcha/AudioDownloadPageCheck.png"
+    AudioInputField = os.getcwd() + "/png/Captcha/EnterAudioText.png"
+    VerifyBtn = os.getcwd() + "/png/Captcha/VerifyButton.png"
+    CaptchaVerification = os.getcwd() + "/png/Captcha/CaptchaVerificationCheck.png"
+    ConnectionErrorV1 = os.getcwd() + "/png/Captcha/ConnectionError_1.PNG"
+    ConnectionErrorV2 = os.getcwd() + "/png/Captcha/ConnectionError_2.PNG"
+    ServerConnectionError = os.getcwd() + "/png/Captcha/CouldntConnectToServerError.PNG"
+    CannotContactToCaptchaError = os.getcwd() + "/png/Captcha/CannotContactToCaptchaError.png"
+    SolveMoreError = os.getcwd() + "/png/Captcha/SolveMoreError.png"
+    ConfirmError = os.getcwd() + "/png/Captcha/CaptchaConfirmError.png"
+    Expired = os.getcwd() + "/png/Captcha/Expired.PNG"
+    AutomatedQueriesError = os.getcwd() + "/png/Captcha/AutomatedQueriesError.png"
