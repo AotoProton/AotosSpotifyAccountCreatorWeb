@@ -3,6 +3,7 @@ Creates Spotify accounts.
 # Requirements
 -Firefox <br />
 -ProtonVpn
+# Tool
 # Legal
 This is illegal if you use this without the consent of the owners . <br />
 The software designed to perform website security testing. <br />
