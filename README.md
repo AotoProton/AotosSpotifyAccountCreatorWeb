@@ -4,6 +4,7 @@ Creates Spotify accounts.
 -Firefox <br />
 -ProtonVpn
 # Tool
+![Alt text](/png/Example/Example.png "Optional title")
 # Legal
 This is illegal if you use this without the consent of the owners . <br />
 The software designed to perform website security testing. <br />
